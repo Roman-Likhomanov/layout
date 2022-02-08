@@ -1,0 +1,237 @@
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/10177.eot');
+	src: local('☺'), url('../fonts/10177.woff') format('woff'), url('../fonts/10177.ttf') format('truetype'), url('../fonts/10177.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-ExtraBold.eot');
+	src: local('☺'), url('../fonts/Gilroy-ExtraBold.woff') format('woff'), url('../fonts/Gilroy-ExtraBold.ttf') format('truetype'), url('../fonts/Gilroy-ExtraBold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+:root {
+    --text-black: #070707;
+    --text-gray: #828282;
+    --background-white: #FFFFFF ;
+    --background-img: #090909;
+    --background-gray: #F6F6F6;
+}
+
+.page-body {
+    min-width: 1445px;
+    min-height: 4759px;
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    font-size: 18px;
+    line-height: 21.83px;
+    font-weight: 500;
+    color: var(--text-black);
+    background-color: var(--background-white);
+    background-position: top center;
+
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    align-content: start;
+    
+}
+
+img {
+    display: grid;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.main-header {
+    margin-top: 33px;
+    margin-bottom: 39.69px;
+    justify-self: center;
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.main-navigation a{
+    line-height: 22.28px;
+    color: var(--text-gray);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus{
+    color: var(--text-black)  
+}
+
+.line {
+   margin-top: 39px;
+   border-bottom: 2px solid var(--text-gray);
+   width: 940.6px;
+}
+
+.container {
+    display: grid;
+    justify-self: center; 
+    min-width: 1445px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 39px;
+    width: 943.61px;
+    justify-self: center;
+    align-items: end;
+}
+
+.name h1{
+    font-size: 47.34px;
+    line-height: 58.61px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.prof {
+    text-align: center;
+    margin: 0;
+}
+
+.ref {
+    margin: 0; 
+}
+
+.ref a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-gray); 
+}
+
+.ref a:hover,
+.ref a:focus{
+    color: var(--text-black)  
+}
+
+.aboutme {
+    text-align: center;
+    background-color: var(--background-gray);
+    height: 506px;
+}
+
+.aboutme h3 {
+    font-size: 34px;
+    line-height: 42.09px;
+    font-weight: 700;
+    margin-top: 120.25px;
+}
+
+.aboutme p {
+    margin: 34px;  
+}
+
+.skills h3 {
+    font-size: 34px;
+    line-height: 42.09px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 91px;
+    margin-bottom: 69px;
+}
+
+.skills-p {
+    text-align: center; 
+    margin-top: 0px;
+    margin-bottom: 83.5px; 
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;
+    justify-self: center;
+    text-align: center;
+    margin: 0px 255px 110px 255px;  
+}
+
+.skills-item {
+    font-size: 14px;
+    line-height: 17.33px;
+    font-weight: 700;
+    color: var(--text-gray);   
+}
+
+.portfolio {
+    display: grid;
+    background-color: var(--background-gray);
+    height: 2253px;
+}
+
+.portfolio h3{
+    font-size: 34px;
+    line-height: 42.09px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 112.9px;
+    margin-bottom: 47px; 
+}
+
+.portfolio a {
+    text-align: center;
+    color: var(--text-black);
+    margin-top: 44px;
+    margin-bottom: 99px; 
+}
+
+.main-footer {
+    display: grid;
+    text-align: center;
+    justify-self: center;
+}
+
+.footer-social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 60px;
+}
+
+.footer-contacts h3 {
+    font-size: 34px;
+    line-height: 42,09px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 114.24px;
+    margin-bottom: 25px;  
+}
+
+.footer-contacts p {
+    margin-top: 0px;
+    margin-bottom: 29.6px;    
+}
+
+.button {
+    margin-top: 0px;
+    margin-bottom: 160px;    
+}
+
+.footer-social {
+    margin-top: 80px;
+    margin-bottom: 45.76px;  
+}
+
+.footer-end {
+    font-size: 14px;
+    line-height: 16.98px;
+    color: var(--text-gray);
+    margin-top: 0px;
+    margin-bottom: 123px;
+}
+
